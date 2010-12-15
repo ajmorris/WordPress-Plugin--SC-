@@ -1,12 +1,12 @@
-=== Plugin Name ===
+=== Screencast.com Video Embedder ===
 Contributors: b1ak3, ajmorris, a.morris@techsmith.com
 Donate link: 
 Tags: screencast, shortcode, video, image
 Requires at least: 3.0.1
 Tested up to: 3.0.3
-Stable tag: 0.1
+Stable tag: 0.3
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+Screencast.com Video Embedder is a plugin for Screencast.com users.
 
 == Description ==
 
@@ -29,17 +29,37 @@ Yes! Just add a shortcode for each video you want in your post.
 No. They are optional, however your video will not scale to fit within the post content area.
 
 == Screenshots ==
-
+1. Enter the shortcode like so. screenshot1.jpg
 
 == Changelog ==
+
+= 0.3 =
+* Added known issues.
+* Added potential roadmap.
+* Added link to enter bugs.
+
+= 0.2 =
+* Added Screenshots.
 
 = 0.1 =
 * First release.
 
 == Upgrade Notice ==
 
-= 0.1 =
-* First release.
+= 0.3 =
+* Updated docs and including screenshot.
 
 
 == Arbitrary section ==
+
+= Submit Bugs =
+* Please use https://github.com/ajmorris/WordPress-Plugin--SC-/issues to submit bugs.
+
+= Known issues =
+* Multiple Round Trips between Screencast.com servers and your web server for videos
+* Performance issues on multiple embeds on single page
+* HTML Dom include could fail if other plugin is using it.
+
+= Potential Roadmap =
+* Caching
+* Default width & height

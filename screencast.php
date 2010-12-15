@@ -3,7 +3,7 @@
 Plugin Name: Screencast Video Embedder
 Plugin URI: http://wordpress.org/extend/plugins/screencast-video-embedder
 Description: Allows users of Screencast.com to easily embed their video/images by the use of a WordPress shortcode.
-Version: 0.1
+Version: 0.3
 Author: TechSmith Corporation
 Author URI: http://techsmith.com
 License: GPL2 
